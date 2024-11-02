@@ -1,0 +1,118 @@
+/*Karyawan*/
+.btn-tambah {
+    position: absolute;
+    top: 4px;
+    right: 24px;
+    background-color: #4e73df;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 80px;
+}
+.btn-tambah:hover {
+    background-color: #4e73df;
+    color: white;
+    text-decoration: none;
+}
+.tabel-menu-karyawan {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.tabel-menu-karyawan th, .tabel-menu-karyawan td {
+    border: 1px solid #4e73df;
+    padding: 8px;
+    text-align: left;
+    color: #5a5c69;
+}
+.tabel-menu-karyawan th {
+    font-weight: bold;
+    color: #5a5c69;
+}
+.tabel-menu-karyawan button {
+    min-width: 80px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.tabel-menu-karyawan .tombol-ijo {
+    min-width: 80px;
+    background-color: #1cc88a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.tabel-menu-karyawan .tombol-kuning {
+    min-width: 80px;
+    background-color: #f6c23e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Daftar Menu*/
+.daftar-menu-karyawan {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.daftar-menu-karyawan label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #5a5c69;
+}
+
+.daftar-menu-karyawan input[type="text"],
+.daftar-menu-karyawan input[type="email"],
+.daftar-menu-karyawan input[type="tel"],
+.daftar-menu-karyawan input[type="password"],
+.daftar-menu-karyawan select,
+.daftar-menu-karyawan textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #4e73df;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.daftar-menu-karyawan textarea {
+    resize: vertical;
+}
+.daftar-menu-karyawan .tombol-save {
+    min-width: 80px;
+    background-color: #1cc88a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.daftar-menu-karyawan .tombol-batal {
+    min-width: 80px;
+    background-color: #e74a3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
